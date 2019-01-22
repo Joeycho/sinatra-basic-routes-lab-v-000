@@ -13,4 +13,8 @@ class App < Sinatra::Base
     "My favorite-song is ignite"
   end
   
+  get '/' do
+    "Welcome to the page!"
+  end
+  
 end
